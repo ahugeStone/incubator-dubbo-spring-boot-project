@@ -40,7 +40,10 @@ endpoints:
   dubboproperties:
     enabled: true
 
-demo:
-  service:
-    version: 1.0.0
-    url: dubbo://localhost:12345
+#demo:
+#  service:
+#    version: 1.0.0
+#    url: dubbo://localhost:12345
+dubbo:
+  config-center:
+    address: zookeeper://127.0.0.1:2181
